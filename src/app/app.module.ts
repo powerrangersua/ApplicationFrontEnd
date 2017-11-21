@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { SigninFormComponent } from './components/signin-form/signin-form.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SigninFormComponent
   ],
   imports: [
     BrowserModule,
